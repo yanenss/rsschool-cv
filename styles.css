@@ -3,3 +3,6 @@ img {
     border: 3xp solid grey;
     box-shadow: 0 0 5px #666;
 }
+body {
+    background: #e0e0e0;
+}
