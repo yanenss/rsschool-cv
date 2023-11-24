@@ -25,3 +25,17 @@ body {
   footer img {
     width: 5%;
   }
+  .left {
+    display: inline-block;
+    width: 30%;
+    margin: 15px;
+    background-color: #e0e0e0;
+    box-shadow: 0 0 10px #e0e0e0;
+  }
+  .right {
+    display: inline-block;
+    width: 50%;
+    margin: 15px;
+    background-color: #e0e0e0;
+    box-shadow: 0 0 10px #e0e0e0;
+  }
