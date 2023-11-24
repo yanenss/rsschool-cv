@@ -7,10 +7,12 @@ body {
     box-sizing: border-box;
     margin: 5;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Serif;
     line-height: 1.5rem;
     color: black;
     background: #e0e0e0;
+    width: 100%%;
+    height: 100%;
   }
   .footer {
     display: block;
@@ -20,7 +22,7 @@ body {
     text-align: center;
     color: #0b0c10;
     font-size: 15px;
-    line-height: 1rem;
+    line-height: 0rem;
   }
   footer img {
     width: 5%;
@@ -31,11 +33,46 @@ body {
     margin: 15px;
     background-color: #e0e0e0;
     box-shadow: 0 0 10px #e0e0e0;
+    font-size: 1.2rem;
   }
   .right {
     display: inline-block;
-    width: 50%;
+    width: 55%;
     margin: 15px;
     background-color: #e0e0e0;
     box-shadow: 0 0 10px #e0e0e0;
+    font-size: 1.2rem;
+  }
+  .personal {
+    padding: 8px;
+    color: #3b3b3d;
+    text-align: center;
+  }
+  .contact {
+    color: #3b3b3d;
+    text-align: center;
+  }
+  .contact ul {
+    list-style: none;
+  }
+  .aboutme {
+    color: #3b3b3d;
+  }
+  .skills {
+    color: #3b3b3d;
+  }
+  .skills ul {
+    list-style: none;
+  }
+  .education {
+    color: #3b3b3d;
+  }
+  .education ul {
+    list-style: none;
+  }
+  .languages {
+    color: #3b3b3d;
+  }
+  .languages ul {
+    list-style: none;
   }
