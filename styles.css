@@ -2,10 +2,14 @@
     border-radius: 200px;
     border: 3xp solid grey;
     box-shadow: 0 0 30px #666;
+    width: 48%;
+}
+.image {
+  text-align: center;
 }
 body {
     box-sizing: border-box;
-    margin: 5px;
+    margin: 0px;
     padding: 0;
     line-height: 1.5rem;
     color: black;
@@ -46,33 +50,10 @@ body {
     color: #3b3b3d;
     text-align: center;
   }
-  .contact {
-    color: #3b3b3d;
-  }
-  .contact ul {
-    list-style: none;
-  }
-  .aboutme {
-    color: #3b3b3d;
-  }
-  .skills {
-    color: #3b3b3d;
-  }
-  .skills ul {
-    list-style: none;
-  }
-  .education {
-    color: #3b3b3d;
-  }
-  .education ul {
-    list-style: none;
-  }
-  .languages {
-    color: #3b3b3d;
-  }
-  .languages ul {
-    list-style: none;
-  }
-  .aboutme ul {
-    list-style: none;
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    max-width: 80%;
+    height: 100vh;
   }
